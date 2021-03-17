@@ -10,6 +10,7 @@
  */
 package 代理设计模式;
 
+/*
 import net.sf.cglib.proxy.Enhancer;
 import net.sf.cglib.proxy.MethodInterceptor;
 import net.sf.cglib.proxy.MethodProxy;
@@ -65,10 +66,4 @@ public class CGLIBDemo {
         proxyDao.create();
     }
 }
-
-/**
- * 代理设计模式.FunctionImple
- * 取消自动提交
- * create方法
- * 提交进行事务操作
- */
+*/

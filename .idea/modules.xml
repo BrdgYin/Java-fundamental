@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Java基础代码.iml" filepath="$PROJECT_DIR$/Java基础代码.iml" />
+      <module fileurl="file://$PROJECT_DIR$/commaniSpring/commaniSpring.iml" filepath="$PROJECT_DIR$/commaniSpring/commaniSpring.iml" />
     </modules>
   </component>
 </project>

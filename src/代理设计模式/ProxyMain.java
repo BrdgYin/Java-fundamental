@@ -10,23 +10,27 @@
  */
 package 代理设计模式;
 
-import net.sf.cglib.proxy.Enhancer;
-import net.sf.cglib.proxy.MethodInterceptor;
-import net.sf.cglib.proxy.MethodProxy;
-
-/**
- * 〈一句话功能简述〉<br> 
- * 〈〉
- *
- * @author 我们
- * @create 2021/2/16
- * @since 1.0.0
- */
-public class ProxyMain {
-    public static void main(String[] args) throws Exception{
-        IDeptDAO  dao = (IDeptDAO) DAOFactory.getDAOInstance();
-        Dept dept = new Dept();
-        dao.doCreate(dept);
-        dao.findAll();
-    }
-}
+///*
+//import net.sf.cglib.proxy.Enhancer;
+//import net.sf.cglib.proxy.MethodInterceptor;
+//import net.sf.cglib.proxy.MethodProxy;
+//
+//*/
+///**
+// * 〈一句话功能简述〉<br>
+// * 〈〉
+// *
+// * @author 我们
+// * @create 2021/2/16
+// * @since 1.0.0
+// *//*
+//
+//public class ProxyMain {
+//    public static void main(String[] args) throws Exception{
+//        IDeptDAO  dao = (IDeptDAO) DAOFactory.getDAOInstance();
+//        Dept dept = new Dept();
+//        dao.doCreate(dept);
+//        dao.findAll();
+//    }
+//}
+//*/
