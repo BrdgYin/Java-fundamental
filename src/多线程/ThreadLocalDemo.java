@@ -43,3 +43,12 @@ public class ThreadLocalDemo {
         }, "t2").start();
     }
 }
+
+/*
+output:
+        t1:1
+        t1:2
+        t1:3
+        t2:a
+        t2:b
+*/
